@@ -1,10 +1,22 @@
 public class Main {
     public static void main(String[] args) {
+        task1 ();
         task2();
         task3();
         task4();
         task5();
 
+    }
+
+    private static void task1() {
+        System.out.println("Задача 1");
+        int clientOs = 0;
+        if (clientOs == 1 ) {
+            System.out.println("Установите версию приложения для Android по ссылке");
+        }
+        else {
+            System.out.println("Установите версию приложения для IOS по ссылке");
+        }
     }
 
 
